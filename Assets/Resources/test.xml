@@ -4616,23 +4616,95 @@
   </data>
  </layer>
  <objectgroup name="Obstacles">
-  <object id="1" x="160" y="3968" width="64" height="128"/>
-  <object id="3" x="352" y="3680" width="64" height="160"/>
-  <object id="4" x="160" y="3392" width="64" height="128"/>
-  <object id="5" x="352" y="3104" width="64" height="128"/>
-  <object id="6" x="160" y="2848" width="96" height="64"/>
-  <object id="7" x="160" y="2912" width="64" height="64"/>
-  <object id="8" x="320" y="2592" width="96" height="64"/>
-  <object id="9" x="352" y="2656" width="64" height="64"/>
-  <object id="10" x="160" y="2336" width="64" height="128"/>
-  <object id="11" x="224" y="2336" width="32" height="64"/>
-  <object id="12" x="320" y="2080" width="32" height="64"/>
-  <object id="13" x="352" y="2080" width="64" height="128"/>
-  <object id="14" x="256" y="1888" width="64" height="64"/>
-  <object id="17" x="0" y="0" width="32" height="4096"/>
-  <object id="18" x="544" y="0" width="32" height="4096"/>
-  <object id="19" x="0" y="4096" width="32" height="4096"/>
-  <object id="20" x="544" y="4096" width="32" height="4096"/>
-  <object id="21" x="-200" y="3216"/>
+  <object id="1" x="160" y="3968" width="64" height="128">
+   <properties>
+    <property name="layer name" value="Obstacle"/>
+   </properties>
+  </object>
+  <object id="3" x="352" y="3680" width="64" height="160">
+   <properties>
+    <property name="layer name" value="Obstacle"/>
+   </properties>
+  </object>
+  <object id="4" x="160" y="3392" width="64" height="128">
+   <properties>
+    <property name="layer name" value="Obstacle"/>
+   </properties>
+  </object>
+  <object id="5" x="352" y="3104" width="64" height="128">
+   <properties>
+    <property name="layer name" value="Obstacle"/>
+   </properties>
+  </object>
+  <object id="6" x="160" y="2848" width="96" height="64">
+   <properties>
+    <property name="layer name" value="Obstacle"/>
+   </properties>
+  </object>
+  <object id="7" x="160" y="2912" width="64" height="64">
+   <properties>
+    <property name="layer name" value="Obstacle"/>
+   </properties>
+  </object>
+  <object id="8" x="320" y="2592" width="96" height="64">
+   <properties>
+    <property name="layer name" value="Obstacle"/>
+   </properties>
+  </object>
+  <object id="9" x="352" y="2656" width="64" height="64">
+   <properties>
+    <property name="layer name" value="Obstacle"/>
+   </properties>
+  </object>
+  <object id="10" x="160" y="2336" width="64" height="128">
+   <properties>
+    <property name="layer name" value="Obstacle"/>
+   </properties>
+  </object>
+  <object id="11" x="224" y="2336" width="32" height="64">
+   <properties>
+    <property name="layer name" value="Obstacle"/>
+   </properties>
+  </object>
+  <object id="12" x="320" y="2080" width="32" height="64">
+   <properties>
+    <property name="layer name" value="Obstacle"/>
+   </properties>
+  </object>
+  <object id="13" x="352" y="2080" width="64" height="128">
+   <properties>
+    <property name="layer name" value="Obstacle"/>
+   </properties>
+  </object>
+  <object id="14" x="256" y="1888" width="64" height="64">
+   <properties>
+    <property name="layer name" value="Obstacle"/>
+   </properties>
+  </object>
+  <object id="17" x="0" y="0" width="32" height="4096">
+   <properties>
+    <property name="layer name" value="Obstacle"/>
+   </properties>
+  </object>
+  <object id="18" x="544" y="0" width="32" height="4096">
+   <properties>
+    <property name="layer name" value="Obstacle"/>
+   </properties>
+  </object>
+  <object id="19" x="0" y="4096" width="32" height="4096">
+   <properties>
+    <property name="layer name" value="Obstacle"/>
+   </properties>
+  </object>
+  <object id="20" x="544" y="4096" width="32" height="4096">
+   <properties>
+    <property name="layer name" value="Obstacle"/>
+   </properties>
+  </object>
+  <object id="21" x="-200" y="3216">
+   <properties>
+    <property name="layer name" value="Obstacle"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
