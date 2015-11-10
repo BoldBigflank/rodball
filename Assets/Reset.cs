@@ -14,6 +14,7 @@ public class Reset : MonoBehaviour {
 	}
 	
 	void OnCollisionEnter2D(Collision2D coll){
+		Debug.Log ("collided!");
 		if(coll.gameObject.tag == "Ball"){
 			Vector3 newPosition = coll.gameObject.transform.position;
 			newPosition.y += 10;

@@ -25,10 +25,12 @@ public class Move : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		Vector2 moveAmount = Vector2.up * Time.deltaTime * moveSpeed;
-		if(Input.touchCount == 0 ){ 
-			moveObject.velocity = moveAmount;
-		} else {
-			moveObject.velocity = -moveAmount;
-		}
+		moveObject.velocity = moveAmount;
+		
+//		if(Input.touchCount == 0 ){ 
+//			moveObject.velocity = moveAmount;
+//		} else {
+//			moveObject.velocity = -moveAmount;
+//		}
 	}
 }
