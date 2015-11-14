@@ -28,7 +28,7 @@ public class TiltAxis : MonoBehaviour {
 //			float touchDiff = thisTouch.position.x - touchPos.x;
 			Vector3 newPosition = transform.position;
 			newPosition.x += thisTouch.deltaPosition.x/moveSensitivity;
-			newPosition.x = Mathf.Clamp(newPosition.x, -1.0F * sideLimit, sideLimit);
+			newPosition.x = Mathf.Clamp(newPosition.x, -1.0F * GameSettings.sideLimit, GameSettings.sideLimit);
 //			transform.position = newPosition;
 			gameObject.GetComponent<Rigidbody2D>().MovePosition(new Vector2(newPosition.x, newPosition.y));
 			
