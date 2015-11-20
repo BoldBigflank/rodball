@@ -4761,6 +4761,9 @@
   </object>
  </objectgroup>
  <objectgroup name="Triggers">
+  <properties>
+   <property name="layer name" value="Trigger"/>
+  </properties>
   <object id="39" type="Trigger" x="-224" y="7104" width="1032" height="120">
    <properties>
     <property name="add component1" value="SideLimitChange"/>
