@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class SideLimitChange : MonoBehaviour {
+	[SerializeField]
 	float sideLimit = 4.0F;
 	
 	// Use this for initialization

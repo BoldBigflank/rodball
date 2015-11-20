@@ -8,10 +8,12 @@ public class Move : MonoBehaviour {
 	float moveSpeed;
 	
 	Rigidbody2D moveObject;
+
+	bool enabled;
 	
 	// Use this for initialization
 	void Start () {
-	
+		enabled = false;
 	}
 	
 	void OnEnable(){
@@ -24,9 +26,14 @@ public class Move : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Vector2 moveAmount = Vector2.up * Time.deltaTime * moveSpeed;
-		moveObject.velocity = moveAmount;
-		
+		if(Input.anyKeyDown){
+			enabled = true;
+		}
+
+		if(enabled){
+			Vector2 moveAmount = Vector2.up * Time.deltaTime * moveSpeed;
+			moveObject.velocity = moveAmount;
+		}
 //		if(Input.touchCount == 0 ){ 
 //			moveObject.velocity = moveAmount;
 //		} else {

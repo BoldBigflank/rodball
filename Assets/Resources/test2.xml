@@ -4619,62 +4619,62 @@
   <properties>
    <property name="layer name" value="Obstacle"/>
   </properties>
-  <object id="1" x="160" y="3968" width="64" height="128">
+  <object id="1" type="Collider" x="160" y="3968" width="64" height="128">
    <properties>
     <property name="layer name" value="Obstacle"/>
    </properties>
   </object>
-  <object id="3" x="352" y="3680" width="64" height="160">
+  <object id="3" type="Collider" x="352" y="3680" width="64" height="160">
    <properties>
     <property name="layer name" value="Obstacle"/>
    </properties>
   </object>
-  <object id="4" x="160" y="3392" width="64" height="128">
+  <object id="4" type="Collider" x="160" y="3392" width="64" height="128">
    <properties>
     <property name="layer name" value="Obstacle"/>
    </properties>
   </object>
-  <object id="5" x="352" y="3104" width="64" height="128">
+  <object id="5" type="Collider" x="352" y="3104" width="64" height="128">
    <properties>
     <property name="layer name" value="Obstacle"/>
    </properties>
   </object>
-  <object id="6" x="160" y="2848" width="96" height="64">
+  <object id="6" type="Collider" x="160" y="2848" width="96" height="64">
    <properties>
     <property name="layer name" value="Obstacle"/>
    </properties>
   </object>
-  <object id="7" x="160" y="2912" width="64" height="64">
+  <object id="7" type="Collider" x="160" y="2912" width="64" height="64">
    <properties>
     <property name="layer name" value="Obstacle"/>
    </properties>
   </object>
-  <object id="8" x="320" y="2592" width="96" height="64">
+  <object id="8" type="Collider" x="320" y="2592" width="96" height="64">
    <properties>
     <property name="layer name" value="Obstacle"/>
    </properties>
   </object>
-  <object id="9" x="352" y="2656" width="64" height="64">
+  <object id="9" type="Collider" x="352" y="2656" width="64" height="64">
    <properties>
     <property name="layer name" value="Obstacle"/>
    </properties>
   </object>
-  <object id="10" x="160" y="2336" width="64" height="128">
+  <object id="10" type="Collider" x="160" y="2336" width="64" height="128">
    <properties>
     <property name="layer name" value="Obstacle"/>
    </properties>
   </object>
-  <object id="11" x="224" y="2336" width="32" height="64">
+  <object id="11" type="Collider" x="224" y="2336" width="32" height="64">
    <properties>
     <property name="layer name" value="Obstacle"/>
    </properties>
   </object>
-  <object id="12" x="320" y="2080" width="32" height="64">
+  <object id="12" type="Collider" x="320" y="2080" width="32" height="64">
    <properties>
     <property name="layer name" value="Obstacle"/>
    </properties>
   </object>
-  <object id="13" x="352" y="2080" width="64" height="128">
+  <object id="13" type="Collider" x="352" y="2080" width="64" height="128">
    <properties>
     <property name="layer name" value="Obstacle"/>
    </properties>
@@ -4684,27 +4684,22 @@
     <property name="layer name" value="Obstacle"/>
    </properties>
   </object>
-  <object id="17" x="0" y="0" width="32" height="4096">
+  <object id="17" type="Collider" x="0" y="0" width="32" height="4096">
    <properties>
     <property name="layer name" value="Obstacle"/>
    </properties>
   </object>
-  <object id="18" x="544" y="0" width="32" height="4096">
+  <object id="18" type="Collider" x="544" y="0" width="32" height="4096">
    <properties>
     <property name="layer name" value="Obstacle"/>
    </properties>
   </object>
-  <object id="19" x="0" y="4096" width="32" height="4096">
+  <object id="19" type="Collider" x="0" y="4096" width="32" height="4096">
    <properties>
     <property name="layer name" value="Obstacle"/>
    </properties>
   </object>
-  <object id="20" x="544" y="4096" width="32" height="4096">
-   <properties>
-    <property name="layer name" value="Obstacle"/>
-   </properties>
-  </object>
-  <object id="21" x="-200" y="3216">
+  <object id="20" type="Collider" x="544" y="4096" width="32" height="4096">
    <properties>
     <property name="layer name" value="Obstacle"/>
    </properties>
@@ -4714,62 +4709,62 @@
     <property name="layer name" value="Obstacle"/>
    </properties>
   </object>
-  <object id="25" x="256" y="6688" width="64" height="64">
+  <object id="25" type="Collider" x="256" y="6688" width="64" height="64">
    <properties>
     <property name="layer name" value="Obstacle"/>
    </properties>
   </object>
-  <object id="26" x="256" y="6496" width="64" height="64">
+  <object id="26" type="Collider" x="256" y="6496" width="64" height="64">
    <properties>
     <property name="layer name" value="Obstacle"/>
    </properties>
   </object>
-  <object id="27" x="128" y="5920" width="96" height="64">
+  <object id="27" type="Collider" x="128" y="5920" width="96" height="64">
    <properties>
     <property name="layer name" value="Obstacle"/>
    </properties>
   </object>
-  <object id="28" x="352" y="5920" width="96" height="64">
+  <object id="28" type="Collider" x="352" y="5920" width="96" height="64">
    <properties>
     <property name="layer name" value="Obstacle"/>
    </properties>
   </object>
-  <object id="30" x="256" y="5344" width="96" height="96">
+  <object id="30" type="Collider" x="256" y="5344" width="96" height="96">
    <properties>
     <property name="layer name" value="Obstacle"/>
    </properties>
   </object>
-  <object id="32" x="384" y="5152" width="96" height="96">
+  <object id="32" type="Collider" x="384" y="5152" width="96" height="96">
    <properties>
     <property name="layer name" value="Obstacle"/>
    </properties>
   </object>
-  <object id="34" x="128" y="5536" width="96" height="96">
+  <object id="34" type="Collider" x="128" y="5536" width="96" height="96">
    <properties>
     <property name="layer name" value="Obstacle"/>
    </properties>
   </object>
-  <object id="36" x="192" y="4832" width="352" height="96">
+  <object id="36" type="Collider" x="192" y="4832" width="352" height="96">
    <properties>
     <property name="layer name" value="Obstacle"/>
    </properties>
   </object>
-  <object id="37" x="288" y="4416" width="128" height="192">
+  <object id="37" type="Collider" x="288" y="4416" width="128" height="192">
    <properties>
     <property name="layer name" value="Obstacle"/>
    </properties>
   </object>
-  <object id="38" x="32" y="4416" width="192" height="192">
+  <object id="38" type="Collider" x="32" y="4416" width="192" height="192">
    <properties>
     <property name="layer name" value="Obstacle"/>
    </properties>
   </object>
  </objectgroup>
  <objectgroup name="Triggers">
-  <object id="39" type="Trigger" x="-248" y="8064" width="1032" height="120">
+  <object id="39" type="Trigger" x="-224" y="7104" width="1032" height="120">
    <properties>
     <property name="add component1" value="SideLimitChange"/>
-    <property name="send message1" value="SetSideLimit|6.0F"/>
+    <property name="send message1" value="SetSideLimit|6"/>
    </properties>
   </object>
  </objectgroup>
