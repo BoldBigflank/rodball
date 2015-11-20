@@ -4,16 +4,11 @@ using System.Collections;
 [RequireComponent(typeof (Rigidbody2D))]
 public class Move : MonoBehaviour {
 
-	[SerializeField]
-	float moveSpeed;
-	
 	Rigidbody2D moveObject;
-
-	bool enabled;
 	
 	// Use this for initialization
 	void Start () {
-		enabled = false;
+		Time.timeScale = 0.0F;
 	}
 	
 	void OnEnable(){
@@ -27,13 +22,12 @@ public class Move : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(Input.anyKeyDown){
-			enabled = true;
+			Time.timeScale = 1.0F;
 		}
 
-		if(enabled){
-			Vector2 moveAmount = Vector2.up * Time.deltaTime * moveSpeed;
-			moveObject.velocity = moveAmount;
-		}
+		Vector2 moveAmount = Vector2.up * Time.deltaTime * GameSettings.current.moveSpeed;
+		moveObject.velocity = moveAmount;
+		
 //		if(Input.touchCount == 0 ){ 
 //			moveObject.velocity = moveAmount;
 //		} else {

@@ -21,11 +21,11 @@ public class ZoomToFit : MonoBehaviour {
 	[SerializeField]
 	Camera cam;
 	
-	float screenAngle;
+//	float screenAngle;
 	
 	// Use this for initialization
 	void Start () {
-		screenAngle = Mathf.Atan2(Screen.width, Screen.height);
+//		screenAngle = Mathf.Atan2(Screen.width, Screen.height);
 	}
 	
 	// Update is called once per frame

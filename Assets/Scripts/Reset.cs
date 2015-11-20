@@ -18,6 +18,7 @@ public class Reset : MonoBehaviour {
 		if(coll.gameObject.tag == "Ball"){
 			Vector3 newPosition = coll.gameObject.transform.position;
 			newPosition.y += 10;
+			newPosition.x = 0;
 			
 			coll.gameObject.transform.position = newPosition;
 		}

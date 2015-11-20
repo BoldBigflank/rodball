@@ -5,12 +5,6 @@ public class TiltAxis : MonoBehaviour {
 	Rigidbody2D rb;
 	// Use this for initialization
 	
-	[SerializeField]
-	float moveSensitivity = 15.0F;
-	
-	[SerializeField]
-	float sideLimit = 4.0F;
-	
 	Vector2 touchPos;
 	
 	void Start () {
@@ -22,16 +16,16 @@ public class TiltAxis : MonoBehaviour {
 	void Update(){
 		if(Input.touchCount > 0){
 			Touch thisTouch = Input.touches[0];
-			if(thisTouch.phase == TouchPhase.Began){
-				touchPos = thisTouch.position;
-			}
+//			touchPos = thisTouch.position; // For GUI Debugging
+//			touchPos = thisTouch.deltaPosition; // For GUI Debugging
+
 //			float touchDiff = thisTouch.position.x - touchPos.x;
 			Vector3 newPosition = transform.position;
-			newPosition.x += thisTouch.deltaPosition.x/moveSensitivity;
-			newPosition.x = Mathf.Clamp(newPosition.x, -1.0F * GameSettings.sideLimit, GameSettings.sideLimit);
-//			transform.position = newPosition;
+			newPosition.x += thisTouch.deltaPosition.x/GameSettings.current.slideSensitivity;
+			newPosition.x = Mathf.Clamp(newPosition.x, -1.0F * GameSettings.current.sideLimit, GameSettings.current.sideLimit);
+			touchPos = newPosition - transform.position; // For GUI Debugging
+			transform.position = newPosition;
 			gameObject.GetComponent<Rigidbody2D>().MovePosition(new Vector2(newPosition.x, newPosition.y));
-			
 		}
 	}
 	
