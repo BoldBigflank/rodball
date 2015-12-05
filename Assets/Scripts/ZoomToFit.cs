@@ -3,8 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class ZoomToFit : MonoBehaviour {
+	public static ZoomToFit current;
+
 	[SerializeField]
-	GameObject[] focusTargets;
+	List<GameObject> focusTargets;
 	
 	[SerializeField]
 	float minHeight;
@@ -25,12 +27,18 @@ public class ZoomToFit : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
+		ZoomToFit.current = this;
+//		focusTargets = new List<GameObject>();
 //		screenAngle = Mathf.Atan2(Screen.width, Screen.height);
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if(focusTargets.Length > 0) SetCameraPosition();
+		if(focusTargets.Count > 0) SetCameraPosition();
+	}
+
+	public void AddTarget(GameObject g){
+		focusTargets.Add(g);
 	}
 	
 	void SetCameraPosition(){
