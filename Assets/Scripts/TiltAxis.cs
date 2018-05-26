@@ -11,6 +11,8 @@ public class TiltAxis : MonoBehaviour {
 		
 		Input.gyro.enabled = true;
 		rb = gameObject.GetComponent<Rigidbody2D>();
+		rb.centerOfMass = new Vector2(-20.0F, 0.0F);
+		rb.
 	}
 	
 	void Update(){
@@ -35,7 +37,11 @@ public class TiltAxis : MonoBehaviour {
 //		transform.rotation.z = 0;
 
 //		transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y, Input.gyro.gravity.x * 90.0F);
-		rb.MoveRotation(Input.gyro.gravity.x * -90.0F);
+
+		// Apple TV/iOS Remote
+//		rb.MoveRotation(Input.gyro.gravity.x * -90.0F);
+
+		rb.MoveRotation(Input.GetAxis("Horizontal")*-90.0F);
 	}
 	
 	void OnGUI(){
